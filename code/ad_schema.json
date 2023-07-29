@@ -1,27 +1,22 @@
 {
-    "domain": "xyz.com",
+    "domain": "xyz.com",   // Specifies the domain name for which the groups and users are being created.
 
     "groups" : [
         {
-            "name": "Employees"
+            "name": "Employees"   // Defines a group named "Employees".
         }
     ],
-    
-    "users": [
 
-        {   
-            "name": "Alice Lice",
-            "password": "P@ssw0rd789",
-            "groups": [
-                "Employees"
-            ]
+    "users": [
+        {
+            "name": "Alice Lice",                   // Defines a user named "Alice Lice".
+            "password": "P@ssw0rd789",              // Specifies the password for the user.
+            "groups": ["Employees"]                 // Assigns the user to the "Employees" group.
         },
-        {   
-            "name": "Bob Ob",
-            "password": "P@ssw0rdABC",
-            "groups": [
-                "Employees"
-            ]
-        }                
+        {
+            "name": "Bob Ob",                       // Defines a user named "Bob Ob".
+            "password": "P@ssw0rdABC",              // Specifies the password for the user.
+            "groups": ["Employees"]                 // Assigns the user to the "Employees" group.
+        }
     ]
 }
