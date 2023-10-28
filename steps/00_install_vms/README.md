@@ -1,4 +1,4 @@
-# 00 - Install VMs
+# 00 - Install VMs 
 
 
 1. Installed Windows Server 2022 as a Virtual machine in VMware Workstation
