@@ -1,4 +1,4 @@
-# 01 Installing the Domain Controller
+# 01 Installing the Domain Controller 
 
 1. Use `sconfig` to:
     - Change the hostname
