@@ -27,7 +27,7 @@ for ($i = 0; $i -lt $num_groups; $i++) {
     
     # Remove the chosen group name from the available group names to avoid duplicates
     $group_names = $group_names | Where-Object { $_ -ne $group_name }
-}
+} 
 
 # Set the number of users to create
 $num_users = 100
