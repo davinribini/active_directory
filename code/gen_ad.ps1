@@ -13,7 +13,7 @@ function CreateADGroup(){
     
     # Create a new Active Directory group with the given name and Global scope
     New-ADGroup -name $name -GroupScope Global
-}
+} 
 
 # Define a function to remove an Active Directory group
 function RemoveADGroup(){
