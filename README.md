@@ -1,1 +1,1 @@
-# Active Directory Setup
+# Active Directory Setup (Installing and configuring a randomly & dynamically expanding AD environment which later on can be exploited with pentest tools)
